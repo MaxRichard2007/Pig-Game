@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 
 * {
   margin: 0;
@@ -7,12 +7,13 @@
 }
 
 html {
-  font-size: 62.5%;
+  /* font-size: 62.5%; */
+  font-size: 55%;
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 400;
   height: 100vh;
   color: #333;
@@ -168,4 +169,124 @@ main {
 
 .hidden {
   display: none;
+}
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 20%;
+  }
+  .name {
+    position: relative;
+    font-size: 2.6rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .current {
+    background-color: #c7365f;
+    opacity: 0.8;
+    border-radius: 9px;
+    color: #fff;
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.75s;
+  }
+
+  /* .player--0 .current {
+    padding: 2rem;
+    right: 1rem;
+    width: 100%;
+    font-size: 4px;
+  } */
+
+  /* .player--1 .current {
+    left: 1rem;
+    position: relative;
+    width: 100%;
+  } */
+}
+
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 30%;
+  }
+  .current {
+    background-color: #c7365f;
+    opacity: 0.8;
+    border-radius: 9px;
+    color: #fff;
+    width: 65%;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.75s;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 40%;
+  }
+  .current {
+    background-color: #c7365f;
+    opacity: 0.8;
+    border-radius: 9px;
+    color: #fff;
+    width: 65%;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.75s;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+  .current {
+    background-color: #c7365f;
+    opacity: 0.8;
+    border-radius: 9px;
+    color: #fff;
+    width: 65%;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.75s;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  html {
+    font-size: 50%;
+  }
+  .current {
+    background-color: #c7365f;
+    opacity: 0.8;
+    border-radius: 9px;
+    color: #fff;
+    width: 65%;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.75s;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 50%;
+  }
+
+  .current {
+    background-color: #c7365f;
+    opacity: 0.8;
+    border-radius: 9px;
+    color: #fff;
+    width: 65%;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.75s;
+  }
 }
